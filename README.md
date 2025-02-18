@@ -27,7 +27,7 @@ cd SETUP-Vite-React-Redux-TypeScript
 npm install
 ```
 
-# or
+or
 
 ```sh
 yarn install
@@ -39,7 +39,7 @@ yarn install
 npm run dev
 ```
 
-# or
+or
 
 ```sh
 yarn dev
@@ -57,7 +57,7 @@ npm run build
 npm run preview
 ```
 
-📦 **Available Scripts**
+## 📦 **Available Scripts**
 
 Starts the development server with Vite. Open http://localhost:5173 to view it in the browser.
 
@@ -83,12 +83,14 @@ Runs ESLint to check for potential code issues.
 npm run lint
 ```
 
-🌍 **Environment Variables**
+## 🌍 **Environment Variables**
+
 Create a .env file in the root directory:
 
 VITE_API_URL=https://your-api.com
 
-🎯 **Features**
+## 🎯 **Features**
+
 ✅ Lightning-fast development with Vite
 ✅ React + TypeScript for type safety
 ✅ State management with Redux Toolkit
@@ -96,7 +98,8 @@ VITE_API_URL=https://your-api.com
 ✅ ESLint & Prettier for clean code
 ✅ Optimized production build
 
-🛠 **Dependencies**
+## 🛠 **Dependencies**
+
 React (react, react-dom)
 Vite (vite)
 Redux Toolkit (@reduxjs/toolkit, react-redux)
@@ -104,7 +107,7 @@ React Router (react-router-dom)
 TypeScript (typescript, @types/react, @types/react-dom)
 Linting & Formatting (eslint, prettier)
 
-🔍 **Code Quality & Linting**
+## 🔍 **Code Quality & Linting**
 
 This project uses **ESLint** for enforcing best practices with React and TypeScript.  
 For better type-aware linting, update your ESLint configuration to enable stricter rules:
@@ -120,7 +123,7 @@ export default tseslint.config({
 });
 ```
 
-📝 **Contributing**
+## 📝 **Contributing**
 
 Fork the repository
 Create a new feature branch: git checkout -b feature-name
@@ -128,6 +131,6 @@ Commit your changes: git commit -m "Add feature"
 Push to your branch: git push origin feature-name
 Submit a pull request
 
-📜 **License**
+## 📜 **License**
 
 This project is licensed under the MIT License.
